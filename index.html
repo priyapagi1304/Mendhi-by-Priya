@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mehndi by Noor | Bridal & Artistic Mehndi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span>✦</span> Mehndi by Priya
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#designs">Designs</a>
+            <a href="#packages">Packages</a>
+            <a href="#about">About</a>
+            <a href="#booking">Book Now</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">TRADITION • ART • LOVE</p>
+
+            <h1>
+                Your Story,<br>
+                <span>Drawn in Mehndi.</span>
+            </h1>
+
+            <p class="hero-text">
+                Beautiful handcrafted mehndi designs for weddings,
+                festivals and every unforgettable celebration.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#booking" class="btn primary-btn">
+                    Book Your Mehndi
+                </a>
+
+                <a href="#designs" class="btn outline-btn">
+                    Explore Designs
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-art">
+            <div class="mandala">
+                ✽
+            </div>
+
+            <div class="hero-card">
+                <span>✦</span>
+                Handcrafted<br>
+                With Love
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- STATS -->
+    <section class="stats">
+
+        <div>
+            <strong>500+</strong>
+            <span>Happy Brides</span>
+        </div>
+
+        <div>
+            <strong>8+</strong>
+            <span>Years Experience</span>
+        </div>
+
+        <div>
+            <strong>1000+</strong>
+            <span>Beautiful Designs</span>
+        </div>
+
+        <div>
+            <strong>5★</strong>
+            <span>Customer Rating</span>
+        </div>
+
+    </section>
+
+
+    <!-- DESIGNS -->
+    <section class="section" id="designs">
+
+        <div class="section-heading">
+            <p>OUR COLLECTION</p>
+            <h2>Choose Your <span>Style</span></h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="design-grid">
+
+            <article class="design-card">
+                <div class="design-icon">❈</div>
+                <h3>Bridal Mehndi</h3>
+                <p>
+                    Detailed full-hand and full-leg designs
+                    made specially for brides.
+                </p>
+                <button onclick="selectPackage('Bridal Mehndi')">
+                    Choose Design →
+                </button>
+            </article>
+
+            <article class="design-card featured">
+                <div class="badge">POPULAR</div>
+                <div class="design-icon">✿</div>
+                <h3>Arabic Mehndi</h3>
+                <p>
+                    Elegant flowing patterns with beautiful
+                    floral and leafy details.
+                </p>
+                <button onclick="selectPackage('Arabic Mehndi')">
+                    Choose Design →
+                </button>
+            </article>
+
+            <article class="design-card">
+                <div class="design-icon">❋</div>
+                <h3>Minimal Mehndi</h3>
+                <p>
+                    Simple, stylish and modern designs
+                    for every occasion.
+                </p>
+                <button onclick="selectPackage('Minimal Mehndi')">
+                    Choose Design →
+                </button>
+            </article>
+
+            <article class="design-card">
+                <div class="design-icon">✾</div>
+                <h3>Party Mehndi</h3>
+                <p>
+                    Quick and beautiful designs for
+                    parties and festivals.
+                </p>
+                <button onclick="selectPackage('Party Mehndi')">
+                    Choose Design →
+                </button>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PACKAGES -->
+    <section class="section packages-section" id="packages">
+
+        <div class="section-heading">
+            <p>OUR PACKAGES</p>
+            <h2>Mehndi For Every <span>Moment</span></h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="package-grid">
+
+            <div class="package-card">
+
+                <h3>Simple</h3>
+
+                <div class="price">
+                    ₹499
+                </div>
+
+                <p>Perfect for casual occasions.</p>
+
+                <ul>
+                    <li>✓ One side hand</li>
+                    <li>✓ Simple patterns</li>
+                    <li>✓ Floral designs</li>
+                    <li>✓ Approx. 30 minutes</li>
+                </ul>
+
+                <button onclick="selectPackage('Simple Mehndi - ₹499')">
+                    Book This
+                </button>
+
+            </div>
+
+
+            <div class="package-card popular-package">
+
+                <span class="package-label">MOST LOVED</span>
+
+                <h3>Bridal</h3>
+
+                <div class="price">
+                    ₹4,999
+                </div>
+
+                <p>Our signature bridal experience.</p>
+
+                <ul>
+                    <li>✓ Full hands</li>
+                    <li>✓ Full legs</li>
+                    <li>✓ Personalised elements</li>
+                    <li>✓ Premium designs</li>
+                </ul>
+
+                <button onclick="selectPackage('Bridal Package - ₹4,999')">
+                    Book This
+                </button>
+
+            </div>
+
+
+            <div class="package-card">
+
+                <h3>Premium</h3>
+
+                <div class="price">
+                    ₹7,999
+                </div>
+
+                <p>For the ultimate wedding look.</p>
+
+                <ul>
+                    <li>✓ Full bridal package</li>
+                    <li>✓ Custom couple portrait</li>
+                    <li>✓ Detailed artwork</li>
+                    <li>✓ Priority appointment</li>
+                </ul>
+
+                <button onclick="selectPackage('Premium Package - ₹7,999')">
+                    Book This
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="about-pattern">
+            ✽
+        </div>
+
+        <div class="about-content">
+
+            <p class="small-title">THE ARTIST</p>
+
+            <h2>
+                More Than Mehndi,<br>
+                <span>It's A Memory.</span>
+            </h2>
+
+            <p>
+                Every mehndi design tells a story. From the first
+                delicate line to the final intricate detail, we
+                create designs that become a part of your special
+                memories.
+            </p>
+
+            <p>
+                Whether it's your wedding day, Eid, Diwali,
+                Karva Chauth or a simple celebration, our goal
+                is to make your hands look as beautiful as
+                your occasion feels.
+            </p>
+
+            <div class="signature">
+                Priya ✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEWS -->
+    <section class="section reviews-section">
+
+        <div class="section-heading">
+            <p>LOVE NOTES</p>
+            <h2>What Our <span>Brides Say</span></h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="review-grid">
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "The bridal mehndi was absolutely gorgeous!
+                    Every tiny detail was perfect. Everyone at
+                    my wedding loved it."
+                </p>
+
+                <h4>— Heli</h4>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Beautiful designs and very professional
+                    service. The Arabic mehndi looked exactly
+                    how I imagined."
+                </p>
+
+                <h4>— Priyanka</h4>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "I loved the minimal design! It was elegant,
+                    neat and perfect for my festival outfit."
+                </p>
+
+                <h4>— Ritika</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BOOKING -->
+    <section class="booking-section" id="booking">
+
+        <div class="booking-wrapper">
+
+            <div class="booking-info">
+
+                <p class="small-title">LET'S CREATE MAGIC</p>
+
+                <h2>
+                    Book Your<br>
+                    <span>Mehndi Session</span>
+                </h2>
+
+                <p>
+                    Fill out the form and we'll contact you
+                    to confirm your appointment.
+                </p>
+
+                <div class="contact-info">
+                    <p>📞 +91 9726119915</p>
+                    <p>📍 Vadodara,Gujarat</p>
+                    <p>✉️ priyapagi0821@gmail.com</p>
+                </div>
+
+            </div>
+
+
+            <form id="bookingForm" class="booking-form">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="10 digit mobile number"
+                            pattern="[0-9]{10}"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Booking Date</label>
+                        <input
+                            type="date"
+                            id="date"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mehndi Type</label>
+
+                        <select id="mehndiType" required>
+
+                            <option value="">
+                                Select design
+                            </option>
+
+                            <option value="Simple Mehndi">
+                                Simple Mehndi
+                            </option>
+
+                            <option value="Arabic Mehndi">
+                                Arabic Mehndi
+                            </option>
+
+                            <option value="Bridal Mehndi">
+                                Bridal Mehndi
+                            </option>
+
+                            <option value="Premium Mehndi">
+                                Premium Mehndi
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Number of People</label>
+
+                    <input
+                        type="number"
+                        id="people"
+                        min="1"
+                        max="50"
+                        placeholder="Example: 2"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Message</label>
+
+                    <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="Tell us about your requirements..."
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    Confirm Booking ✦
+                </button>
+
+                <p class="form-note">
+                    Your details are used only for booking.
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            ✦ Mehndi by Priya
+        </div>
+
+        <p>
+            Creating beautiful memories, one design at a time.
+        </p>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+
+        <div class="copyright">
+            © 2026 Mehndi by Priya. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- SUCCESS POPUP -->
+    <div class="popup" id="successPopup">
+
+        <div class="popup-box">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h2>Booking Ready!</h2>
+
+            <p>
+                Your booking details are ready.
+                Click below to send them on WhatsApp.
+            </p>
+
+            <a
+                href="#"
+                id="whatsappBtn"
+                class="whatsapp-btn"
+                target="_blank"
+            >
+                Send on WhatsApp
+            </a>
+
+            <button
+                onclick="closePopup()"
+                class="close-btn"
+            >
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
